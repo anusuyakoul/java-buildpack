@@ -20,3 +20,4 @@
 version: 1.+
 repository_root: "{default.repository.root}/auto-reconfiguration"
 enabled: true
+java -javaagent:D:\Program Files\AppAgent\javaagent.jar -Dappdynamics.controller.hostName=dangerous201709070215517.saas.appdynamics.com -Dappdynamics.controller.port=443 -Dappdynamics.agent.applicationName=cf-spring -Dappdynamics.agent.tierName=Inventory -Dappdynamics.agent.nodeName=Inventory1 SampleApplication
